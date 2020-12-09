@@ -6,7 +6,6 @@ services:
       - "5000:5000"
     networks: 
       - basicFlaskDriver
-    mac_address: 79:19:b0:21:bb:c5
   redis:
     image: "redis:alpine"
 networks: 
