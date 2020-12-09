@@ -13,4 +13,4 @@ networks:
   basicFlaskDriver:
     driver: macvlan
     driver_opts:
-      parent: ens19
+      parent: ens20
