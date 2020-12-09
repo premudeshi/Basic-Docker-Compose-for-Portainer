@@ -10,6 +10,6 @@ services:
     image: "redis:alpine"
 networks: 
   basicFlaskDriver:
-    driver: macvlan
+    driver: bridge
     driver_opts:
       parent: ens20
